@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
 
 public class MyTest {
     static Map<String,String> headers = new HashMap<>();
-    static Properties prop =new Properties();
+
     @BeforeAll
     static void setUp()  {
         headers.put("Authorization", "Bearer f7c7fdf60b6ee204982e6df7f534d2b8a6198f04");
